@@ -87,7 +87,20 @@ Martin_ hier. Worum geht's?
      `/_buildinfo/`. Oder füge direkt in deine Doku, zumindest für die Entwicklungszeit,
      einen Link ein: ```buildinfo <_buildinfo>`__`` Der sollte dann so funktionieren: 
      `buildinfo <_buildinfo>`__
-        
+     
+   - Die Kapitel (=Unterordner) :doc:`Hyperlinks </Hyperlinks/Index>` und
+     :doc:`reStructuredText </reStructuredText/Index>` sollen Hilfestellung beim Einstieg
+     sein. Sie können natürlich bedenkenlos gelöscht werden.
+     
+Wenn mir mehr einfällt oder Fragen auftauchen schreibe ich mir.
+
+Viel Spaß, viel Erfolg, und bitte: Weitersagen! Wir benötigen möglichst viele Mitstreiter
+in der Community, die sich trauen, "Edit me on Github" zu drücken, wenn sie in der Doku
+einen Fehler entdecken.
+
+TYPO3 - Inspire people to share!
+
+Martin
         
         
 
