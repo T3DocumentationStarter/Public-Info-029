@@ -70,11 +70,11 @@ Martin_ hier. Worum geht's?
         erforderlich! Sehen, ändern, speichern. Und warten - das ist bestimmt das Schwerste.
         Aber nur ganz kurze Zeit.
         
-   - Wenn etwas nicht so funktioniert wie erwartet: Ja, das reST-Format (reStructuredText__) ist 
+   - Ja, das reST-Format (reStructuredText__) ist 
      schon ganz schön pingelig. Dafür arbeitet es aber auch sematisch, gestaltet den
      Quelltext optimal lesbar und kann Dinge, von denen man sonst nur träumen kann.
      
-     Also, wenn etwas nicht so erscheint wie gedacht:
+   - Wenn etwas nicht so funktioniert wie erwartet:
      
      .. tip:: Schau ins Protokoll!
 
@@ -82,6 +82,11 @@ Martin_ hier. Worum geht's?
         erhält auch einen `/_buildinfo` Ordner, den man hier im Web aufrufen kann. Darin ist
         ganz besonders die Datei :file:`warnings.txt` von Interesse, denn sie enthält die
         Sphinx_ Warnungen und Fehlermeldungen.
+        
+     Hänge also in der Adresszeile des Browsers an die Start-URL deines Projektes ein
+     `/_buildinfo/`. Oder füge direkt in deine Doku, zumindest für die Entwicklungszeit,
+     einen Link ein: ```buildinfo <_buildinfo>`__`` Der sollte dann so funktionieren: 
+     `buildinfo <_buildinfo>`__
         
         
         
